@@ -13,9 +13,6 @@ winget --version
 ```
 
 
-
-
-
 ## Install git 
 To install git, open PowerShell as Administrator and run
 
@@ -28,6 +25,21 @@ Once the installation completes, verify that git is installed by running
 ```powershell
 git --version
 ```
+
+## Install Oracle VirtualBox 
+To install VirtualBox, open PowerShell as Administrator and run
+
+```powershell
+winget install --id Oracle.VirtualBox -e
+```
+
+Once the installation completes, verify that VirtualBox is installed from the GUI (  Programs > Oracle VirtualBox)
+
+
+
+
+
+
 
 Clone repository
 
