@@ -34,7 +34,7 @@ winget install --id Oracle.VirtualBox -e
 ```
 2. Once the installation is complete, verify that VirtualBox is installed via the GUI (Start Menu > Oracle VirtualBox)
 3. Visit the official VirtualBox downloads page ( https://www.virtualbox.org/wiki/Downloads ), and under the "VirtualBox Extension Pack" section, click the link to download the extension pack
-4. To install the VirtualBox Extension Pack, double-click the downloaded '.vbox-extpack file'. ( The VirtualBox GUI will open and prompt you to install it)
+4. To install the VirtualBox Extension Pack, double-click the downloaded '.vbox-extpack file'. The VirtualBox GUI will open and prompt you to install it
 
 
 
