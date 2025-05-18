@@ -33,8 +33,9 @@ To install VirtualBox, open PowerShell as Administrator and run
 winget install --id Oracle.VirtualBox -e
 ```
 
-Once the installation completes, verify that VirtualBox is installed from the GUI (  Programs > Oracle VirtualBox)
+Once the installation completes, verify that VirtualBox is installed from the GUI ( Start > Oracle VirtualBox)
 
+download the latest Oracle VM VirtualBox Extension Pack 
 
 
 
