@@ -28,7 +28,7 @@ git --version
 
 
 ## Install Oracle VirtualBox 
-1. To install VirtualBox, open PowerShell as Administrator and run
+1. To install VirtualBox  ( https://www.virtualbox.org/wiki/Downloads ), open PowerShell as Administrator and run
 
 ```powershell
 winget install --id Oracle.VirtualBox -e
@@ -40,6 +40,18 @@ winget install --id Oracle.VirtualBox -e
 
 
 ## Install Vagrant
+1. To install Vagrant ( https://developer.hashicorp.com/vagrant/install ), open PowerShell as Administrator and run
+
+```powershell
+winget install --id HashiCorp.Vagrant -e
+```
+
+2. Once the installation completes, verify that Vagrant is installed by running
+
+```powershell
+vagrant --version
+```
+
 
 
 
