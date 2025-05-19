@@ -43,7 +43,7 @@ winget install --id Oracle.VirtualBox -e
 1. To install Vagrant ( https://developer.hashicorp.com/vagrant/install ), open PowerShell as Administrator and run
 
 ```powershell
-winget install --id HashiCorp.Vagrant -e
+winget install --id=Hashicorp.Vagrant -e
 ```
 
 2. Once the installation completes, verify that Vagrant is installed by running
