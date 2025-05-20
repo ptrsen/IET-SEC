@@ -4,7 +4,7 @@ Labs
 ## Prerequisites
 - **Windows 10 (or later)** or **Windows 11**
 - **PowerShell**
-- **Winget CLI** installed (pre-installed on most modern Windows systems)
+- **Winget CLI** installed (pre-installed on most modern Windows systems, https://winstall.app/)
 
 To verify if `winget` is available, run the following command in PowerShell:
 
@@ -17,7 +17,7 @@ winget --version
 1. To install git ( https://git-scm.com/downloads ), open PowerShell as Administrator and run
 
 ```powershell
-winget install --id Git.Git -e --source winget
+winget install --id=Git.Git  -e
 ```
 
 2. Once the installation completes, verify that git is installed by running
@@ -31,7 +31,7 @@ git --version
 1. To install VirtualBox  ( https://www.virtualbox.org/wiki/Downloads ), open PowerShell as Administrator and run
 
 ```powershell
-winget install --id Oracle.VirtualBox -e
+winget install --id=Oracle.VirtualBox  -e
 ```
 
 2. Once the installation is complete, verify that VirtualBox is installed via the GUI (Start Menu > Oracle VirtualBox)
