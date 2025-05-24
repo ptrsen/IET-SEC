@@ -62,7 +62,7 @@ git clone [repository_url]
 ```
 
 
-## Basic Vagrant commands 
+## Basic VM commands (Vagrant) 
 
 Starts or resumes the VM
 ```powershell
