@@ -64,22 +64,22 @@ git clone [repository_url]
 
 ## Basic Vagrant commands 
 
-vagrant up: Starts or resumes the VM
+Starts or resumes the VM
 ```powershell
 vagrant up
 ```
 
-vagrant halt: Powers off the VM
+Powers off the VM
 ```powershell
 vagrant halt 
 ```
 
-vagrant suspend: Saves VM state (like "sleep")
+Saves VM state (like "sleep")
 ```powershell
 vagrant suspend 
 ```
 
-vagrant destroy: Completely deletes the VM and its data
+Completely deletes the VM and its data
 ```powershell
 vagrant destroy -f
 ```
