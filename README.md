@@ -53,16 +53,16 @@ vagrant --version
 ```
 
 
-
+## Labs - Enviroment 
 
 Clone repository
 
 ```powershell
-git clone [repository_url]
+git clone https://github.com/ptrsen/IET-SEC.git 
 ```
 
 
-## Basic VM commands (Vagrant) 
+## Basic Lab-VM commands (Vagrant) 
 
 Starts or resumes the VM
 ```powershell
