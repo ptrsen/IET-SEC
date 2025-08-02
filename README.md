@@ -64,22 +64,31 @@ git clone https://github.com/ptrsen/IET-SEC.git
 
 ## Basic Lab-VM commands (Vagrant) 
 
-Starts or resumes the VM
+### Default credentials for VM
+- **Username**: `vagrant`
+- **Password**: `vagrant`
+
+### Starts or resumes the VM
 ```powershell
 vagrant up
 ```
 
-Powers off the VM
+### SSH Login (from terminal)
+```powershell
+vagrant ssh
+```
+
+### Powers off the VM
 ```powershell
 vagrant halt 
 ```
 
-Saves VM state (like "sleep")
+### Saves VM state (like "sleep")
 ```powershell
 vagrant suspend 
 ```
 
-Completely deletes the VM and its data
+### Completely deletes the VM and its data
 ```powershell
 vagrant destroy -f
 ```
