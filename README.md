@@ -1,5 +1,5 @@
 # IET-SEC
-Labs
+This repository provides a setup for a lab environment. It automates the provisioning of virtual machines and tools commonly used in security training and exercises.
 
 ## Prerequisites
 - **Windows 10 (or later)** or **Windows 11**
