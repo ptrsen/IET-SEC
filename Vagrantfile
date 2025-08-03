@@ -8,7 +8,17 @@ Vagrant.configure("2") do |config|
     vb.memory = 4096
     vb.cpus = 2 
     vb.gui = true
+    vb.customize ["modifyvm", :id, "--nested-hw-virt", "on"]
   end
 
-  config.vm.provision "shell", path: "provision.sh"
+  # First provisioning stage
+  config.vm.provision "shell", path: "setup.sh",
+    env: { "VAGRANT_PROVISION_STAGE" => "setup" },
+    run: "once"
+
+  # Second provisioning stage (after reboot)
+  config.vm.provision  "shell", path: "utils.sh",
+    env: { "VAGRANT_PROVISION_STAGE" => "utils" },
+    run: "once"
+
 end

@@ -55,14 +55,20 @@ vagrant --version
 
 ## Labs - Enviroment 
 
-Clone repository
+1. Clone repository
 
 ```powershell
 git clone https://github.com/ptrsen/IET-SEC.git 
 ```
 
+2. Create VM
+```powershell
+vagrant up
+vagrant reload --provision
+```
 
-## Basic Lab-VM commands (Vagrant) 
+
+## Basic VM management commands (Vagrant) 
 
 ### Default credentials for VM
 - **Username**: `vagrant`
@@ -93,4 +99,9 @@ vagrant suspend
 vagrant destroy -f
 ```
 
+### Completely deletes vagrant box
+```powershell
+vagrant box list
+vagrant box remove kalilinux/rolling  --provider virtualbox
+```
 
