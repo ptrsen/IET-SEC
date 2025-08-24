@@ -2,9 +2,11 @@
 This repository provides a setup for a lab environment. It automates the provisioning of virtual machines and tools commonly used in security training and exercises.
 
 ## Prerequisites
-- **Windows 10 (or later)** or **Windows 11**
-- **PowerShell**
-- **Winget CLI** installed (pre-installed on most modern Windows systems, https://winstall.app/)
+- **Windows 10** (or later) or **Windows 11**
+- **VMware Workstation** installed ([Download link](https://support.broadcom.com/group/ecx/downloads) — requires a free Broadcom account)  
+- **PowerShell** (pre-installed on Windows 10/11)
+- **Winget CLI** installed (usually pre-installed on modern Windows; if missing, download from [winstall.app](https://winstall.app/))
+
 
 To verify if `winget` is available, run the following command in PowerShell:
 
@@ -104,4 +106,3 @@ vagrant destroy -f
 vagrant box list
 vagrant box remove kalilinux/rolling  --provider virtualbox
 ```
-
